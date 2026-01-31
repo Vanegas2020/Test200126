@@ -1,0 +1,347 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-01-31T16:24:01.610Z",
+  "projectName": "Test200126",
+  "testingTypes": [
+    "happy-path",
+    "negative-testing",
+    "edge-cases"
+  ],
+  "mappings": [
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "Valid username login",
+      "scenarioId": "pw-auth-hp-input-text-01",
+      "testingType": "happy-path",
+      "priority": "critical",
+      "pageType": "Autenticación",
+      "estimatedDuration": 3000,
+      "tags": [
+        "authentication",
+        "login",
+        "smoke",
+        "critical"
+      ]
+    },
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "Empty username field",
+      "scenarioId": "pw-auth-neg-input-text-01",
+      "testingType": "negative-testing",
+      "priority": "high",
+      "pageType": "Autenticación",
+      "estimatedDuration": 2000,
+      "tags": [
+        "authentication",
+        "validation",
+        "negative"
+      ]
+    },
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "Invalid username format",
+      "scenarioId": "pw-auth-neg-input-text-02",
+      "testingType": "negative-testing",
+      "priority": "high",
+      "pageType": "Autenticación",
+      "estimatedDuration": 4000,
+      "tags": [
+        "authentication",
+        "validation",
+        "security",
+        "negative"
+      ]
+    },
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "Non-existent username",
+      "scenarioId": "pw-auth-neg-input-text-03",
+      "testingType": "negative-testing",
+      "priority": "high",
+      "pageType": "Autenticación",
+      "estimatedDuration": 2500,
+      "tags": [
+        "authentication",
+        "negative"
+      ]
+    },
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "SQL injection attempt",
+      "scenarioId": "pw-auth-neg-input-text-04",
+      "testingType": "negative-testing",
+      "priority": "high",
+      "pageType": "Autenticación",
+      "estimatedDuration": 5000,
+      "tags": [
+        "authentication",
+        "security",
+        "sql-injection",
+        "negative"
+      ]
+    },
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "Maximum length username",
+      "scenarioId": "pw-auth-edge-input-text-01",
+      "testingType": "edge-cases",
+      "priority": "medium",
+      "pageType": "Autenticación",
+      "estimatedDuration": 2500,
+      "tags": [
+        "authentication",
+        "edge-case",
+        "boundary"
+      ]
+    },
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "Special characters in username",
+      "scenarioId": "pw-auth-edge-input-text-02",
+      "testingType": "edge-cases",
+      "priority": "medium",
+      "pageType": "Autenticación",
+      "estimatedDuration": 2000,
+      "tags": [
+        "authentication",
+        "edge-case"
+      ]
+    },
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "Unicode characters in username",
+      "scenarioId": "pw-auth-edge-input-text-03",
+      "testingType": "edge-cases",
+      "priority": "medium",
+      "pageType": "Autenticación",
+      "estimatedDuration": 3000,
+      "tags": [
+        "authentication",
+        "edge-case",
+        "i18n"
+      ]
+    },
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "Valid password entry",
+      "scenarioId": "pw-auth-hp-input-password-01",
+      "testingType": "happy-path",
+      "priority": "critical",
+      "pageType": "Autenticación",
+      "estimatedDuration": 3000,
+      "tags": [
+        "authentication",
+        "login",
+        "critical"
+      ]
+    },
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "Empty password field",
+      "scenarioId": "pw-auth-neg-input-password-01",
+      "testingType": "negative-testing",
+      "priority": "high",
+      "pageType": "Autenticación",
+      "estimatedDuration": 2000,
+      "tags": [
+        "authentication",
+        "validation",
+        "negative"
+      ]
+    },
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "Wrong password",
+      "scenarioId": "pw-auth-neg-input-password-02",
+      "testingType": "negative-testing",
+      "priority": "high",
+      "pageType": "Autenticación",
+      "estimatedDuration": 2500,
+      "tags": [
+        "authentication",
+        "security",
+        "negative"
+      ]
+    },
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "Password too short",
+      "scenarioId": "pw-auth-neg-input-password-03",
+      "testingType": "negative-testing",
+      "priority": "high",
+      "pageType": "Autenticación",
+      "estimatedDuration": 2000,
+      "tags": [
+        "authentication",
+        "validation",
+        "negative"
+      ]
+    },
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "Password mismatch (registration)",
+      "scenarioId": "pw-auth-neg-input-password-04",
+      "testingType": "negative-testing",
+      "priority": "high",
+      "pageType": "Autenticación",
+      "estimatedDuration": 2500,
+      "tags": [
+        "authentication",
+        "registration",
+        "validation",
+        "negative"
+      ]
+    },
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "Maximum length password",
+      "scenarioId": "pw-auth-edge-input-password-01",
+      "testingType": "edge-cases",
+      "priority": "medium",
+      "pageType": "Autenticación",
+      "estimatedDuration": 2000,
+      "tags": [
+        "authentication",
+        "edge-case"
+      ]
+    },
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "Special characters password",
+      "scenarioId": "pw-auth-edge-input-password-02",
+      "testingType": "edge-cases",
+      "priority": "medium",
+      "pageType": "Autenticación",
+      "estimatedDuration": 2000,
+      "tags": [
+        "authentication",
+        "edge-case"
+      ]
+    },
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "Successful form submission",
+      "scenarioId": "pw-auth-hp-button-submit-01",
+      "testingType": "happy-path",
+      "priority": "critical",
+      "pageType": "Autenticación",
+      "estimatedDuration": 3000,
+      "tags": [
+        "authentication",
+        "submit",
+        "critical"
+      ]
+    },
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "Submit with empty form",
+      "scenarioId": "pw-auth-neg-button-submit-01",
+      "testingType": "negative-testing",
+      "priority": "high",
+      "pageType": "Autenticación",
+      "estimatedDuration": 2000,
+      "tags": [
+        "authentication",
+        "validation",
+        "negative"
+      ]
+    },
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "Submit during loading",
+      "scenarioId": "pw-auth-neg-button-submit-02",
+      "testingType": "negative-testing",
+      "priority": "medium",
+      "pageType": "Autenticación",
+      "estimatedDuration": 2500,
+      "tags": [
+        "authentication",
+        "ux",
+        "negative"
+      ]
+    },
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "Submit form with Enter key",
+      "scenarioId": "pw-auth-hp-button-submit-02",
+      "testingType": "happy-path",
+      "priority": "high",
+      "pageType": "Autenticación",
+      "estimatedDuration": 3000,
+      "tags": [
+        "authentication",
+        "ux",
+        "accessibility"
+      ]
+    },
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "Double-click prevention",
+      "scenarioId": "pw-auth-edge-button-submit-01",
+      "testingType": "edge-cases",
+      "priority": "high",
+      "pageType": "Autenticación",
+      "estimatedDuration": 2000,
+      "tags": [
+        "authentication",
+        "edge-case",
+        "ux"
+      ]
+    },
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "Successful logout",
+      "scenarioId": "pw-auth-hp-logout-01",
+      "testingType": "happy-path",
+      "priority": "critical",
+      "pageType": "Autenticación",
+      "estimatedDuration": 3000,
+      "tags": [
+        "authentication",
+        "logout"
+      ]
+    },
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "Access protected page after logout",
+      "scenarioId": "pw-auth-neg-logout-01",
+      "testingType": "negative-testing",
+      "priority": "high",
+      "pageType": "Autenticación",
+      "estimatedDuration": 4000,
+      "tags": [
+        "authentication",
+        "logout",
+        "security"
+      ]
+    },
+    {
+      "testFile": "tests/login.spec.ts",
+      "testName": "Back button session check",
+      "scenarioId": "pw-auth-edge-logout-01",
+      "testingType": "edge-cases",
+      "priority": "high",
+      "pageType": "Autenticación",
+      "estimatedDuration": 4000,
+      "tags": [
+        "authentication",
+        "logout",
+        "security"
+      ]
+    }
+  ],
+  "statistics": {
+    "totalTests": 23,
+    "byTestingType": {
+      "happy-path": 5,
+      "negative-testing": 11,
+      "edge-cases": 7
+    },
+    "byPriority": {
+      "critical": 4,
+      "high": 13,
+      "medium": 6
+    },
+    "totalEstimatedDuration": 63500
+  }
+}
