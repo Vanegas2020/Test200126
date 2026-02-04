@@ -1,0 +1,144 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-02-04T21:48:54.044Z",
+  "projectName": "test",
+  "model": "Structured Test Model (STM)",
+  "configuration": {
+    "level": "component",
+    "testingTypes": [
+      "happy-path",
+      "negative",
+      "edge-cases"
+    ]
+  },
+  "mappings": [
+    {
+      "testFile": "tests/loginpage.component.spec.ts",
+      "testId": "auth-comp-username-visible",
+      "pageType": "Autenticación",
+      "pageName": "LoginPage",
+      "level": "component"
+    },
+    {
+      "testFile": "tests/loginpage.component.spec.ts",
+      "testId": "auth-comp-username-accepts-input",
+      "pageType": "Autenticación",
+      "pageName": "LoginPage",
+      "level": "component"
+    },
+    {
+      "testFile": "tests/loginpage.component.spec.ts",
+      "testId": "auth-comp-username-clears-on-clear",
+      "pageType": "Autenticación",
+      "pageName": "LoginPage",
+      "level": "component"
+    },
+    {
+      "testFile": "tests/loginpage.component.spec.ts",
+      "testId": "auth-comp-username-empty-validation",
+      "pageType": "Autenticación",
+      "pageName": "LoginPage",
+      "level": "component"
+    },
+    {
+      "testFile": "tests/loginpage.component.spec.ts",
+      "testId": "auth-comp-password-visible",
+      "pageType": "Autenticación",
+      "pageName": "LoginPage",
+      "level": "component"
+    },
+    {
+      "testFile": "tests/loginpage.component.spec.ts",
+      "testId": "auth-comp-password-accepts-input",
+      "pageType": "Autenticación",
+      "pageName": "LoginPage",
+      "level": "component"
+    },
+    {
+      "testFile": "tests/loginpage.component.spec.ts",
+      "testId": "auth-comp-password-masked",
+      "pageType": "Autenticación",
+      "pageName": "LoginPage",
+      "level": "component"
+    },
+    {
+      "testFile": "tests/loginpage.component.spec.ts",
+      "testId": "auth-comp-password-empty-validation",
+      "pageType": "Autenticación",
+      "pageName": "LoginPage",
+      "level": "component"
+    },
+    {
+      "testFile": "tests/loginpage.component.spec.ts",
+      "testId": "auth-comp-submit-visible",
+      "pageType": "Autenticación",
+      "pageName": "LoginPage",
+      "level": "component"
+    },
+    {
+      "testFile": "tests/loginpage.component.spec.ts",
+      "testId": "auth-comp-submit-enabled",
+      "pageType": "Autenticación",
+      "pageName": "LoginPage",
+      "level": "component"
+    },
+    {
+      "testFile": "tests/loginpage.component.spec.ts",
+      "testId": "auth-comp-submit-clickable",
+      "pageType": "Autenticación",
+      "pageName": "LoginPage",
+      "level": "component"
+    },
+    {
+      "testFile": "tests/loginpage.component.spec.ts",
+      "testId": "auth-comp-username-max-length",
+      "pageType": "Autenticación",
+      "pageName": "LoginPage",
+      "level": "component"
+    },
+    {
+      "testFile": "tests/loginpage.component.spec.ts",
+      "testId": "auth-comp-password-min-length",
+      "pageType": "Autenticación",
+      "pageName": "LoginPage",
+      "level": "component"
+    },
+    {
+      "testFile": "tests/loginpage.component.spec.ts",
+      "testId": "auth-comp-username-special-chars",
+      "pageType": "Autenticación",
+      "pageName": "LoginPage",
+      "level": "component"
+    },
+    {
+      "testFile": "tests/loginpage.component.spec.ts",
+      "testId": "auth-comp-locked-out-user",
+      "pageType": "Autenticación",
+      "pageName": "LoginPage",
+      "level": "component"
+    },
+    {
+      "testFile": "tests/loginpage.component.spec.ts",
+      "testId": "auth-comp-problem-user",
+      "pageType": "Autenticación",
+      "pageName": "LoginPage",
+      "level": "component"
+    },
+    {
+      "testFile": "tests/loginpage.component.spec.ts",
+      "testId": "auth-comp-performance-glitch",
+      "pageType": "Autenticación",
+      "pageName": "LoginPage",
+      "level": "component"
+    }
+  ],
+  "statistics": {
+    "totalTests": 17,
+    "byPage": {
+      "LoginPage": 17
+    },
+    "byLevel": {
+      "component": 17
+    }
+  }
+}
