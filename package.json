@@ -1,0 +1,40 @@
+{
+  "name": "test200126",
+  "version": "1.0.0",
+  "description": "Automated testing suite for Test200126 using playwright",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "test:trace": "playwright show-trace",
+    "codegen": "playwright codegen http://localhost:3000",
+    "install:browsers": "playwright install",
+    "install:all": "npm install && playwright install"
+  },
+  "keywords": [
+    "automation",
+    "testing",
+    "playwright",
+    "e2e",
+    ""
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=22.x",
+    "npm": ">=9.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.10.2",
+    "dotenv": "^17.2.3",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "playwright": "^1.58.2"
+  }
+}
